@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 92px 50px;
+  padding: 0 50px;
+  height: 293px;
 }
 
 .header__menu {
