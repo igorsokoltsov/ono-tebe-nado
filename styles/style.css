@@ -103,7 +103,7 @@
   line-height: 115px;
   letter-spacing: 30px;
   text-transform: uppercase;
-  margin-bottom: 14px;
+  margin-bottom: 13px;
 }
 
 .aligned-text_center {
@@ -136,7 +136,7 @@
 .cover__description-text {
   font-size: 22px;
   line-height: 28px;
-  word-spacing: 23px;
+  word-spacing: 18.4px;
   text-transform: uppercase;
 }
 
@@ -204,7 +204,7 @@
   z-index: 0;
   width: 334px;
   height: 563px;
-  padding: 51px 40px 50px;
+  padding: 51px 40px 48px;
 }
 
 .card_type_film {
@@ -264,7 +264,7 @@
 .about__grid-item_2 {
   display: flex;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 81px;
 }
 
 .about__grid-item_3 {
