@@ -52,6 +52,7 @@
 
 .header__address-text_action,
 .footer__address-text_action {
+  letter-spacing: 0.18px;
   text-decoration: none;
   border-bottom: 1px #000 solid;
 }
@@ -233,6 +234,10 @@
   line-height: 24px;
 }
 
+.card__text-dots {
+  letter-spacing: 2.6px;
+}
+
 .lots__look-more-link {
   font-size: 20px;
   margin: 0 auto 0 40px;
@@ -259,7 +264,7 @@
 .about__grid-item_2 {
   display: flex;
   align-items: center;
-  padding-top: 72px;
+  padding-top: 80px;
 }
 
 .about__grid-item_3 {
@@ -284,7 +289,26 @@
 .about__text {
   font-size: 20px;
   line-height: 24px;
+}
+
+.about__text-spacing-xs {
+  letter-spacing: -0.2px;
+}
+
+.about__text-spacing-s {
   letter-spacing: 0.2px;
+}
+
+.about__text-spacing-m {
+  letter-spacing: 0.4px;
+}
+
+.about__text-spacing-l {
+  letter-spacing: 0.6px;
+}
+
+.about__text-spacing-xl {
+  letter-spacing: 0.8px;
 }
 
 .about__heading {
