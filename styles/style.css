@@ -42,6 +42,7 @@
 .header__logo {
   display: block;
   align-content: center;
+  padding-bottom: 2px;
 }
 
 .header__logo-image {
@@ -274,7 +275,7 @@
 .about__grid-item_2 {
   display: flex;
   align-items: center;
-  padding-top: 78px;
+  padding-top: 76px;
 }
 
 .about__grid-item_3 {
