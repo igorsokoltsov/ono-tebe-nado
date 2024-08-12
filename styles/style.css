@@ -39,8 +39,12 @@
   border-bottom: none;
 }
 
+
 .header__logo-image {
-  height: 105px;
+  display: block;
+  height: 104px;
+  width: 135px;
+  background: url("../images/logo-black.svg") no-repeat center/cover;
 }
 
 .header__address-container {
@@ -276,7 +280,7 @@
 
 .about__logo {
   display: flex;
-  align-content: center;
+  justify-content: center;
   align-items: center;
   width: 240px;
   height: 240px;
@@ -286,6 +290,8 @@
 
 .about__logo-image {
   height: 114px;
+  width: 148px;
+  background: url("../images/logo-white.svg") no-repeat center / cover;
 }
 
 .about__text {
