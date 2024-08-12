@@ -42,13 +42,11 @@
 .header__logo {
   display: block;
   align-content: center;
-  padding-bottom: 3px;
 }
 
 .header__logo-image {
   height: 104px;
   width: 135px;
-  background: url("../images/logo-black.svg") no-repeat center/cover;
 }
 
 .header__address-container {
