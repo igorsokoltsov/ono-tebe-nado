@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
-  height: 293px;
+  min-height: 293px;
 }
 
 .header__menu {
@@ -16,6 +16,7 @@
 .header__links-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .header__links-list-item {
@@ -80,7 +81,6 @@
   align-items: start;
   position: relative;
   z-index: 0;
-  height: 757px;
   margin-bottom: 180px;
   padding: 165px 50px 50px;
   background: url("../images/cover.jpg") no-repeat center/cover;
@@ -95,16 +95,14 @@
 }
 
 .cover__title {
-  margin: 0 0 auto;
+  margin: 0 0 135px;
   width: 1000px;
-  height: 355px;
   flex-shrink: 0;
 }
 
 .aligned-text {
   display: block;
   font-size: 100px;
-  font-style: normal;
   font-weight: 700;
   line-height: 115px;
   letter-spacing: 30px;
@@ -121,6 +119,7 @@
 .aligned-text_right {
   text-align: end;
   line-height: 100%;
+  margin-bottom: 0;
 }
 
 .letter-spacing-extended {
@@ -165,6 +164,7 @@
   font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .lots {
@@ -211,7 +211,7 @@
   position: relative;
   z-index: 0;
   width: 334px;
-  height: 563px;
+  height: 100%;
   padding: 51px 40px 48px;
 }
 
@@ -259,32 +259,18 @@
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 25px;
   grid-row-gap: 8px;
+  align-items: end;
   padding: 0 24px;
   margin-bottom: 92px;
 }
 
-.about__grid-item_1 {
-  display: flex;
-  align-items: end;
-  justify-content: center;
-  padding-bottom: 2px;
-}
-
-.about__grid-item_2 {
-  display: flex;
-  align-items: center;
-  padding-top: 76px;
-}
-
-.about__grid-item_3 {
-  display: flex;
-  flex-direction: column;
-}
-
 .about__logo {
+  grid-column-start: 1;
+  grid-column-end: 2;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  margin: 0 auto;
   width: 240px;
   height: 240px;
   background: #000;
@@ -297,9 +283,29 @@
   background: url("../images/logo-white.svg") no-repeat center / cover;
 }
 
+.about__heading {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  align-items: center;
+  padding-bottom: 92px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about__paragraph {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
 .about__text {
   font-size: 20px;
   line-height: 24px;
+}
+
+.about__text-top {
+  margin-bottom: 24px;
 }
 
 .about__text-spacing-xs {
@@ -320,16 +326,6 @@
 
 .about__text-spacing-xl {
   letter-spacing: 0.8px;
-}
-
-.about__heading {
-  font-size: 40px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.about__text-top {
-  margin-bottom: 24px;
 }
 
 .footer {

@@ -27,7 +27,7 @@
       <a class="header__logo" href="#"
         ><img
           class="header__logo-image"
-          src="../images/logo-black.svg"
+          src="./images/logo-black.svg"
           alt="Логотип: Оно тебе надо"
       /></a>
       <div class="header__address-container">
@@ -42,9 +42,9 @@
             href="mailto:info@sobaka.ge"
             >info@sobaka.ge</a
           ><br />
-          <span class="header__address-text"
-            >наб. Принсенграхт 263- 265, Амстердам</span
-          >
+          <p class="header__address-text">
+            наб. Принсенграхт 263- 265, Амстердам
+          </p>
         </address>
       </div>
     </header>
@@ -69,18 +69,18 @@
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button name="button" type="submit" class="bet-button">
+          <button name="button" type="button" class="bet-button">
             Сделать ставку
           </button>
         </div>
       </section>
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
-        <article>
+        <div>
           <ul class="lots__card-list">
             <li class="lots__card-list-item">
               <a href="" class="card-link">
-                <div class="card card_type_film">
+                <article class="card card_type_film">
                   <div class="overlay"></div>
                   <h3 class="card__title">
                     Фильм режиссёра, который бросил киношколу
@@ -90,12 +90,12 @@
                     ставка, если бы вы не знали, что режиссёр — Пол Томас
                     Андерсон?
                   </p>
-                </div>
+                </article>
               </a>
             </li>
             <li class="lots__card-list-item">
               <a href="#" class="card-link">
-                <div class="card card_type_book">
+                <article class="card card_type_book">
                   <div class="overlay"></div>
                   <h3 class="card__title">
                     Книга, где описан один скучный день из жизни рекламного
@@ -109,12 +109,12 @@
                     эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
                     Джеймса Джойса?
                   </p>
-                </div>
+                </article>
               </a>
             </li>
             <li class="lots__card-list-item">
               <a href="#" class="card-link">
-                <div class="card card_type_picture">
+                <article class="card card_type_picture">
                   <div class="overlay"></div>
                   <h3 class="card__title">
                     Картина, которую повторит даже 5-летний сын маминой подруги
@@ -126,24 +126,19 @@
                     вы на такое поставили, если бы не знали, что это— одна из
                     революционных работ Кандинского?
                   </p>
-                </div>
+                </article>
               </a>
             </li>
           </ul>
-        </article>
+        </div>
         <a href="#" class="lots__look-more-link">посмотреть больше</a>
       </section>
       <section class="about">
-        <div class="about__grid-item_1">
-          <div class="about__logo">
-            <div class="about__logo-image"></div>
-          </div>
+        <div class="about__logo">
+          <div class="about__logo-image"></div>
         </div>
-        <div class="about__grid-item_2">
-          <h2 class="about__heading">Об аукционе</h2>
-        </div>
-        <div></div>
-        <div class="about__grid-item_3">
+        <h2 class="about__heading">Об аукционе</h2>
+        <div class="about__paragraph">
           <p class="about__text about__text-top">
             <span class="about__text-spacing-s"
               >Здесь вы не встретите очередное</span
@@ -192,9 +187,9 @@
           href="mailto:info@sobaka.ge"
           >info@sobaka.ge</a
         ><br />
-        <span class="footer__address-text"
-          >наб. Принсенграхт 263- 265, Амстердам</span
-        >
+        <p class="footer__address-text">
+          наб. Принсенграхт 263- 265, Амстердам
+        </p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
